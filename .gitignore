@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Large files and data
+*.mp4
+*.avi
+*.mov
+*.npy
+*.pkl
+*.png
+data/
+outputs/
+models/
+
+# Keep specific files we want to track
+!requirements.txt
+!README.md
+!hand_pca.py
+!hand_pca_compare.py
+!hand_pca_evaluate.py
+!process_hands.py
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
